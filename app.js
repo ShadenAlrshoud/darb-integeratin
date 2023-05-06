@@ -8,7 +8,7 @@ if(password.value.trim() ==''){
 }
 else if (password.value.trim() == '112233'){
     success(password);
-    alert('تم تسجيل الدخول بنجاح')
+    window.location.assign("index.php")
 } else {
     error(password, 'رمز الدخول خاطئ* ')
 }
